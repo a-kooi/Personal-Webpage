@@ -13,7 +13,7 @@ shinyUI(
     # Application title
     fluidRow(img(height="100%",width="100%",src="DSC03118-2.jpg")),
     
-    headerPanel("Andreas Kooi", windowTitle = "Kooi Analytics"),
+    headerPanel("Andreas Kooi", windowTitle = "Andreas Kooi"),
     tabsetPanel(
         selected = "About",
         tabPanel("Portfolio", 
@@ -42,13 +42,13 @@ shinyUI(
         ),
                 
         
-        tabPanel("Resume", value = "A",
-           
-                 downloadButton("resume"),
-                 column(6,
-                 uiOutput("pdfview"))
-                 ),
-        
+        tabPanel("Resume", 
+                 column(10, 
+                        img(height="100%",width="100%",src="kooi_resume.jpg")),
+                 downloadButton("resume", "Download PDF")
+        ),
+
+    
         tabPanel("About", 
                  
                  fluidRow(
