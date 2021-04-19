@@ -8,7 +8,7 @@
     .
     ├── Webpage                # app
     |    ├── rsconnect         # Hosting information
-    |    ├── www               # Static files used
+    |    ├── www               # Static files
     |    ├── server.R          # Server code
     |    ├── ui.R              # User interface
     ├── .DS_Store
