@@ -13,4 +13,4 @@
     |    ├── ui.R              # User interface
     ├── .DS_Store
     ├── .gitattributes
-    ├── README.md
+    └── README.md
