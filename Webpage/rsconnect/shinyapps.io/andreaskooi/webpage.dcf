@@ -5,7 +5,7 @@ account: andreaskooi
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
 appId: 3991019
-bundleId: 4493478
+bundleId: 4493507
 url: https://andreaskooi.shinyapps.io/webpage/
-when: 1618886461.56803
-lastSyncTime: 1618886461.56807
+when: 1618887058.48186
+lastSyncTime: 1618887058.48191
