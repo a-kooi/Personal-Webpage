@@ -14,14 +14,14 @@ shinyUI(
     fluidPage(
 
     fluidRow(
-        img(height="100%",width="100%",src="DSC03118-2.jpg"),
+        img(height="100%",width="100%",src="DSC03118-17.png"),
         column(10),
-        div("Last updated ", Sys.Date(), style = "font-size:10px;")
+        div("Last updated ", as.Date("2021-04-23"), style = "font-size:10px;")
         ),
     
-    titlePanel("Andreas Kooi", windowTitle = "Andreas Kooi"),
+    #titlePanel("Andreas Kooi", windowTitle = "Andreas Kooi"),
     tabsetPanel(
-        selected = "About",
+        selected = "Portfolio",
         tabPanel("Portfolio", 
                  # Might use this in the future ==============================================
                  #column(3,
@@ -61,7 +61,7 @@ shinyUI(
                  ),
                  
                  column(6, 
-                        p( "Hi there! I am a 22 year old student studying Applied Physics at UC Santa Cruz. Currently I am writing my senior literature review paper on Quantum Annealing and I am
+                        p( "I am a 22 year old student studying Applied Physics at UC Santa Cruz. Currently I am writing my senior literature review paper on Quantum Annealing and I am
                        auditing a graduate class on statistical learning in higher dimensions. I am also working on a few independent projects and self-learning some data-science tools.
                        In the fall I will be attending Cal Poly SLO as a part of their Master's in Business Analytics program. I am interested
                        in using data to provide practical insights for businesses. I value problem solving, obtaining results, and innovation. Aside from my professional work I enjoy cycling, yoga, 
